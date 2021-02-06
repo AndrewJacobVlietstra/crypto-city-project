@@ -1,0 +1,19 @@
+
+// Global Reset
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; // 10px = 1rem
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}

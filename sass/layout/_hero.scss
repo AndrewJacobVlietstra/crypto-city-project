@@ -1,0 +1,16 @@
+.hero {
+    height: 80vh;
+    background-image: linear-gradient(to right, 
+        rgba($color-black, 0.7), 
+        rgba($color-secondary-dark, 0.7)), 
+        url('../../dist/images/hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
