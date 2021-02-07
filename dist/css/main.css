@@ -105,7 +105,7 @@ a {
 
 .crypto-security {
   padding: 22rem 0;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
   background-color: #6a89cc;
   margin-top: -10vh;
 }
@@ -316,6 +316,71 @@ a {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.support {
+  position: relative;
+}
+
+.support .section-heading {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.support .section-heading::after {
+  background-color: #fff;
+}
+
+.background-image {
+  height: 50vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../../dist/images/background-1.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../dist/images/background-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.currency-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.currency-container img {
+  width: 200px;
+  -webkit-filter: saturate(0);
+          filter: saturate(0);
+  margin-right: 5rem;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.currency-container img:hover {
+  -webkit-filter: saturate(1.5);
+          filter: saturate(1.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .testimonials {
