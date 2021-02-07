@@ -182,6 +182,203 @@ a {
           transform: translate(-20%, 0%);
 }
 
+.footer {
+  color: #fff;
+  background-color: #333;
+}
+
+.footer-container {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer-column {
+  margin: 0 auto;
+  width: 33.333333%;
+}
+
+.form {
+  line-height: 2.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1.4rem;
+  padding-bottom: 1rem;
+}
+
+.form .section-heading {
+  font-size: 2rem;
+  margin-bottom: 0rem;
+  padding-top: 3rem;
+  color: #fff;
+}
+
+.form .section-heading::after {
+  background-color: #6a89cc;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.form .btn {
+  font-size: 1.4rem;
+  padding: 1.0rem 1.4rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  cursor: pointer;
+}
+
+.form .btn-primary {
+  background-color: #2980b9;
+  border: 1px solid #2980b9;
+}
+
+.form .btn-primary:hover {
+  background-color: transparent;
+}
+
+.form input,
+.form textarea {
+  width: 300px;
+  padding: 0.2rem;
+  border-radius: 4px;
+  border: none;
+  border-bottom: 3px solid transparent;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-bottom: 3px solid #6a89cc;
+}
+
+.social-contact {
+  font-size: 1.4rem;
+  line-height: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-contact ul {
+  list-style: none;
+}
+
+.social-contact ul li {
+  display: inline-block;
+}
+
+.social-contact ul li:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.social-contact ul li a {
+  color: #a1a1a1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.social-contact ul li a:hover {
+  color: #6a89cc;
+}
+
+.social-contact .section-heading {
+  font-size: 2rem;
+  margin-bottom: 0rem;
+  color: #fff;
+}
+
+.social-contact .section-heading::after {
+  background-color: #6a89cc;
+  margin-top: 0;
+  margin-bottom: 2rem;
+}
+
+.social-contact .social-icon {
+  font-size: 2.6rem;
+}
+
+.social-contact .footer-paragraph {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  width: 400px;
+  color: #a1a1a1;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #585858;
+}
+
+.footer-logo {
+  height: 42.5rem;
+  text-align: center;
+  background-color: #446bbf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer-logo img {
+  -webkit-filter: saturate(3);
+          filter: saturate(3);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+}
+
+.sub-footer {
+  background-color: #446bbf;
+  height: 5rem;
+  font-size: 1.3rem;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .hero {
   height: 70vh;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(9, 76, 179, 0.7))), url("../../dist/images/hero.jpg");
@@ -243,8 +440,8 @@ a {
   background-color: #2980b9;
   display: block;
   margin-top: 0.1rem;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
 }
 
 .main-nav-item:hover::after {
@@ -333,8 +530,8 @@ a {
 
 .background-image {
   height: 50vh;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url("../../dist/images/background-1.jpg");
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../dist/images/background-1.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(106, 137, 204, 0.9)), to(rgba(0, 0, 0, 0.75))), url("../../dist/images/background-1.jpg");
+  background-image: linear-gradient(to bottom, rgba(106, 137, 204, 0.9), rgba(0, 0, 0, 0.75)), url("../../dist/images/background-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
