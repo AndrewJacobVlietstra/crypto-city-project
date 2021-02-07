@@ -1,0 +1,50 @@
+.services {
+    padding: 10rem 0;
+
+    &-container {
+        margin: 0 auto;
+        width: 140rem;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex: 0 1 100%;
+
+    }
+
+    &-box {
+        margin-bottom: 4rem;
+
+        & .image-box {
+            position: relative;
+            img {
+                width: 10rem;
+                filter: invert(41%) sepia(95%) saturate(327%) hue-rotate(159deg) brightness(92%) contrast(108%);
+                margin-bottom: 1.5rem;
+                transition: all 0.8s ease-in-out;
+    
+                &:hover {
+                    transform: rotate(360deg);
+                    filter: invert(16%) sepia(3%) saturate(0%) hue-rotate(135deg) brightness(92%) contrast(92%);
+                }
+        }
+
+        }
+
+        & .paragraph {
+            margin-top: 1rem;
+            font-size: 1.4rem;
+            color: $color-gray-light;
+        }
+    }
+
+    .icon {
+        font-size: 4rem;
+        z-index: 10;
+        color: $color-white;
+        -webkit-font-smoothing: antialiased;
+        position: absolute;
+        top: 43.5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
