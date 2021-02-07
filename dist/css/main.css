@@ -169,16 +169,13 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 100%;
-          flex: 0 1 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .services-box {
+  width: 32%;
   margin-bottom: 4rem;
 }
 
@@ -195,7 +192,7 @@ a {
   transition: all 0.8s ease-in-out;
 }
 
-.services-box .image-box img:hover {
+.services-box:hover img {
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
   -webkit-filter: invert(16%) sepia(3%) saturate(0%) hue-rotate(135deg) brightness(92%) contrast(92%);

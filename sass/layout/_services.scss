@@ -5,13 +5,14 @@
         margin: 0 auto;
         width: 140rem;
         text-align: center;
+
         display: flex;
-        flex-direction: row;
-        flex: 0 1 100%;
+        justify-content: center;
 
     }
 
     &-box {
+        width: 32%;
         margin-bottom: 4rem;
 
         & .image-box {
@@ -20,14 +21,13 @@
                 width: 10rem;
                 filter: invert(41%) sepia(95%) saturate(327%) hue-rotate(159deg) brightness(92%) contrast(108%);
                 margin-bottom: 1.5rem;
-                transition: all 0.8s ease-in-out;
-    
-                &:hover {
-                    transform: rotate(360deg);
-                    filter: invert(16%) sepia(3%) saturate(0%) hue-rotate(135deg) brightness(92%) contrast(92%);
-                }
+                transition: all 0.8s ease-in-out;     
+            }
         }
 
+        &:hover img {
+            transform: rotate(360deg);
+            filter: invert(16%) sepia(3%) saturate(0%) hue-rotate(135deg) brightness(92%) contrast(92%);
         }
 
         & .paragraph {
