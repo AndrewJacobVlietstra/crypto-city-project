@@ -1,0 +1,69 @@
+.crypto-security {
+    padding: 22rem 0;
+    padding-bottom: 5rem;
+    background-color: $color-tertiary;
+    margin-top: -10vh;
+
+    & h1 {
+        color: $color-footer-dark;
+        &::after {background-color: $color-footer-dark;}
+    }
+
+    & h2 {
+        color: $color-gray-dark-3;
+        font-weight: 400;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+     
+}
+
+.security-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    // flex-direction: column;
+
+    
+
+    
+
+    img {
+        width: 400px;
+        
+    }
+}
+
+.security-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+    font-size: 4rem;
+    z-index: 10;
+    color: $color-white;
+    -webkit-font-smoothing: antialiased;
+    position: absolute;
+    top: 43.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.security-paragraph {
+    color: $color-white;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    text-align: left;
+    width: 200%;
+    transform: translate(-20%, 0%);
+
+}
+
