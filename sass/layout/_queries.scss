@@ -23,30 +23,28 @@
         
     }
 
+}
 
 
-    @media (max-width: 526px) {
+@media (max-width: 526px) {
 
-        .main-nav {
-            &-item {
-                
-                &:not(:last-child) {
-                    padding-right: 0;
-                    margin-right: 0rem;
-                }
-            }
-        }
-
-        .main-nav-list {
-            flex-direction: column;
-            text-align: left;
+    .main-nav {
+        &-item {
             
             &:not(:last-child) {
-                margin-right: 0;
+                padding-right: 0;
+                margin-right: 0rem;
             }
         }
+    }
 
-
+    .main-nav-list {
+        flex-direction: column;
+        text-align: left;
+        
+        &:not(:last-child) {
+            margin-right: 0;
+        }
     }
 
 
