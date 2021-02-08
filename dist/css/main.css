@@ -24,11 +24,12 @@ a {
 
 .hero-heading {
   font-size: 6rem;
-  font-weight: 700;
+  font-weight: 800;
   font-family: 'Archivo', Arial, sans-serif;
   color: #fff;
   text-shadow: 0.4rem 0.4rem 0.5rem rgba(0, 0, 0, 0.3);
   margin-bottom: 5rem;
+  letter-spacing: 2px;
 }
 
 .section-heading {
@@ -425,8 +426,17 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   padding: 1.4rem 0;
-  border-bottom: 1px solid #0b61e4;
+  border-bottom: 1px solid #000;
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+.main-nav .toggle-button {
+  color: black;
+  font-size: 2.6rem;
+  position: absolute;
+  top: 1.4rem;
+  right: 2rem;
+  visibility: hidden;
 }
 
 .main-nav-img {
@@ -468,6 +478,46 @@ nav {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+@media (max-width: 1024px) {
+  .main-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 1rem;
+  }
+  .main-nav .toggle-button {
+    visibility: visible;
+  }
+  .main-nav-list {
+    display: none;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+  }
+  .main-nav-list.active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (max-width: 1024px) and (max-width: 526px) {
+  .main-nav-item:not(:last-child) {
+    padding-right: 0;
+    margin-right: 0rem;
+  }
+  .main-nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: left;
+  }
+  .main-nav-list:not(:last-child) {
+    margin-right: 0;
+  }
 }
 
 .services {

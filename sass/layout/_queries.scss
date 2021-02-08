@@ -1,0 +1,53 @@
+@media (max-width: 1024px) {
+
+    // Responsive Navbar Queries
+    .main-nav {
+        flex-direction: column;
+        padding: 1rem;
+        
+    }
+
+    .main-nav .toggle-button {
+        visibility: visible;
+    }
+
+    .main-nav-list {
+        display: none;
+        padding-top: 2rem;
+        padding-bottom: 0.5rem;
+        
+    }
+
+    .main-nav-list.active {
+        display: flex;
+        
+    }
+
+
+
+    @media (max-width: 526px) {
+
+        .main-nav {
+            &-item {
+                
+                &:not(:last-child) {
+                    padding-right: 0;
+                    margin-right: 0rem;
+                }
+            }
+        }
+
+        .main-nav-list {
+            flex-direction: column;
+            text-align: left;
+            
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+        }
+
+
+    }
+
+
+}
