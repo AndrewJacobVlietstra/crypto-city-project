@@ -47,6 +47,7 @@
     }
 
 
+
     .hero,
     .testimonials,
     .background-image {
@@ -104,6 +105,11 @@
 
     .hero-heading {
         font-size: 5.2rem;
+    }
+
+    .testimonials .testimonial-paragraph {
+        font-size: 2rem;
+        width: 80%;
     }
 
     .security-paragraph {
@@ -177,8 +183,9 @@
         }
     }
 
-    .testimonial-paragraph {
+    .testimonials .testimonial-paragraph {
         font-size: 1.4rem;
+        width: 80%;
     }
 
     .currency-container {

@@ -586,6 +586,10 @@ nav {
   .hero-heading {
     font-size: 5.2rem;
   }
+  .testimonials .testimonial-paragraph {
+    font-size: 2rem;
+    width: 80%;
+  }
   .security-paragraph {
     text-align: center;
     width: 100%;
@@ -640,8 +644,9 @@ nav {
   .main-nav-list:not(:last-child) {
     margin-right: 0;
   }
-  .testimonial-paragraph {
+  .testimonials .testimonial-paragraph {
     font-size: 1.4rem;
+    width: 80%;
   }
   .currency-container {
     position: relative;
