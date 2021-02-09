@@ -10,11 +10,14 @@
         display: flex;
         justify-content: center;
 
+
     }
 
     &-box {
         width: 26%;
+        padding: 1rem;
         margin-bottom: 4rem;
+
 
         & .image-box {
             position: relative;
