@@ -1,6 +1,6 @@
 .hero-heading {
     font-size: 6rem;
-    font-weight: 700;
+    font-weight: 800;
     font-family: 'Lato', 'Open Sans', Arial, sans-serif;
     color: #fff;
     text-shadow: 0.4rem 0.4rem 0.5rem rgba($color-black, 0.3);
@@ -42,5 +42,5 @@
     -webkit-background-clip: text;
     color: transparent;
     filter: saturate(7.5);
-    text-shadow: .5rem .75rem 1.5rem rgba($color-black, 0.6);
+    text-shadow: .2rem 1rem 2rem rgba($color-black, 0.75);
 }

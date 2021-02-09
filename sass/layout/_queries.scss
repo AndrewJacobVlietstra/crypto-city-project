@@ -1,3 +1,25 @@
+
+@media (max-width: 1400px) {
+
+    .services {
+
+        &-container {
+            width: 30%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        & .paragraph {
+            margin-bottom: 2rem;
+        }
+    }
+
+    
+}
+
+
+
 // IPad Pro
 @media (max-width: 1024px) {
 
@@ -24,19 +46,117 @@
         
     }
 
+
+    .hero,
+    .testimonials,
+    .background-image {
+        background-attachment: scroll !important;
+    }
+
+
+    .security-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & .services-box {
+            width: 90%;
+            text-align: center;
+        }
+        
+
+        img {
+            margin-bottom: 6rem;
+        }
+    }
+
+    .security-paragraph {
+        text-align: left;
+        width: 80%;
+        position: relative;
+        left: 50%;
+    }
+
+    .icon {left: 50%;}
+
+    .security-column {
+        width: 100%;
+    }
+
+    .security-paragraph {
+        transform: translate(-50%, 0%);
+    }
+
+
+    .social-contact {
+        .footer-paragraph {
+            font-size: 1.4rem;
+            width: 300px;
+            text-align: center;
+        }
+    }
+
 }
 
 
 // Regular IPad
 @media (max-width: 768px) {
 
+    .hero-heading {
+        font-size: 5.2rem;
+    }
+
+    .security-paragraph {
+        text-align: center;
+        width: 100%;
+        position: relative;
+        left: 50%;
+    }
+
+    .currency-container {
+
+    
+        div img {
+            width: 180px;
+            
+        }
+    
+    }
+    
+
+
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-column {
+        margin: 0 auto;
+        width: 100%;
+        
+        &:not(:last-child){
+            margin-bottom: 4rem;
+        }
+    }
+
+    .social-contact .footer-paragraph {
+        width: 60%;
+    }
+
+    .footer-logo {
+        height: 8rem;
+    }
 
 }
 
 
 
 // Mobile
-@media (max-width: 526px) {
+@media (max-width: 500px) {
+
+    .hero-heading {
+        font-size: 2.5rem;
+    }
 
     .main-nav {
         &-item {
@@ -55,6 +175,32 @@
         &:not(:last-child) {
             margin-right: 0;
         }
+    }
+
+    .testimonial-paragraph {
+        font-size: 1.4rem;
+    }
+
+    .currency-container {
+        position: relative;
+        top: -30px;
+
+        & > :not(:last-child) {
+            margin-right: 2rem !important;
+        }
+    
+        div img {
+            width: 100px;
+            
+        }
+    
+    }
+
+
+    .security-paragraph {
+        text-align: center;
+        width: 100%;
+
     }
 
 

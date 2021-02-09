@@ -35,10 +35,13 @@
     justify-content: center;
     align-items: center;
 
+    & > :not(:last-child) {
+        margin-right: 5rem;
+    }
+
     img {
         width: 200px;
         filter: saturate(0);
-        margin-right: 5rem;
         cursor: pointer;
         transition: all .3s;
 
@@ -46,6 +49,7 @@
             filter: saturate(1.5);
             transform: scale(1.1);
         }
+
 
     }
 
