@@ -104,7 +104,11 @@
 @media (max-width: 768px) {
 
     .hero-heading {
-        font-size: 5.2rem;
+        font-size: 5.5rem;
+    }
+
+    .services .services-box {
+        width: 90%;
     }
 
     .testimonials .testimonial-paragraph {
