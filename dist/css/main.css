@@ -584,8 +584,8 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#2980b9), to(#2a2aa7));
-  background-image: linear-gradient(to bottom, #2980b9, #2a2aa7);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#64c1ff), to(#2a56ce));
+  background-image: linear-gradient(to bottom, #64c1ff, #2a56ce);
   height: 100vh;
   width: 100%;
   z-index: 1000;
