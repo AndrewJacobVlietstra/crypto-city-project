@@ -1,5 +1,6 @@
 @import "abstracts/variables";
 
+@import "base/animations";
 @import "base/base";
 @import "base/typography";
 
@@ -9,6 +10,7 @@
 @import "layout/crypto-security";
 @import "layout/footer";
 @import "layout/hero";
+@import "layout/introLoad";
 @import "layout/main-nav";
 @import "layout/queries";
 @import "layout/services";
