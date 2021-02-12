@@ -2,7 +2,7 @@
 $(document).ready(function (){
     $(".carousel").slick({
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 4800,
         dots: true
     });
 });
