@@ -613,8 +613,6 @@ a {
 .introLoad .row-1,
 .introLoad .row-2 {
   margin: 0 .5rem;
-  -webkit-animation: name duration timing-function delay iteration-count direction fill-mode;
-          animation: name duration timing-function delay iteration-count direction fill-mode;
 }
 
 .introLoad .square-1 {
@@ -731,6 +729,15 @@ nav {
   }
   .services .paragraph {
     margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 1280px) {
+  .currency-container {
+    top: -10px;
+  }
+  .currency-container div img {
+    width: 140px;
   }
 }
 
